@@ -265,20 +265,6 @@ S.UI = (function () {
     );
   }
 
-  function checkInputWidth() {
-    if (input.value.length > 18) {
-      ui.classList.add("ui--wide");
-    } else {
-      ui.classList.remove("ui--wide");
-    }
-
-    if (firstAction && input.value.length > 0) {
-      ui.classList.add("ui--enter");
-    } else {
-      ui.classList.remove("ui--enter");
-    }
-  }
-
   function bindEvents() {
     window.addEventListener("resize", function () {
       clearTimeout(resizeTimer);
