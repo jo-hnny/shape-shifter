@@ -19,9 +19,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate(
-        "杨晓茜|和平使者|你相信光吗？|#icon thumbs-up|#countdown 3|YES|I Believe !"
-      );
+      S.UI.simulate("杨晓茜|圣诞节快乐|🎄|Merry Christmas !");
     }
 
     S.Drawing.loop(function () {
