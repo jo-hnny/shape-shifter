@@ -19,7 +19,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate("杨晓茜|圣诞节快乐|🎄|Merry Christmas !");
+      S.UI.simulate("杨晓茜|新年快乐|🐰");
     }
 
     S.Drawing.loop(function () {
